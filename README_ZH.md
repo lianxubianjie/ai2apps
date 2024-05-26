@@ -4,11 +4,13 @@
 
 ## 新闻
 
+:fire: May 9, 2024: AI2Apps正式发布。
+
 :fire: May 9, 2024: [Vitalbridge Capital](http://www.vitalbridge.com/blog/复旦大学ai³徐盈辉研究员：agent的可视化创作界面-|-agent-insights?id=428)发布了对AI2Apps团队成员的专访文章。
 
 :fire: Apr 14, 2024: 我们在arXiv上发布了论文“[AI2Apps: A Visual IDE for Building LLM-based AI Agent Applications](https://arxiv.org/abs/2404.04902)”!
 
-:tada: XX XX, 2023: AI2Apps被初次创建!
+:tada: Oct 29, 2023: AI2Apps被创建!
 
 欢迎加入我们的社区
 
@@ -22,7 +24,7 @@
 ![home](assets/ai2apps_framework.png)
 
 ## AI2Apps概览
-AI2Apps作为首个面向LLM-based AI agent应用的可视化集成开发环境（Virtual IDE），覆盖了从原型设计、代码编写、Agent调试以及最终打包发布的完整开发周期，可帮助开发者高效地构建AI Agent应用。AI2Apps 集成了工程级的开发工具，以及覆盖前后端的全栈式可视化组件，开发者可以在几分钟内通过拖拽迅速构建自己的 AI Agent，并直接生成可以发布的App。
+AI2Apps作为首个面向LLM-based AI agent应用的可视化集成开发环境（Virtual IDE），覆盖了从原型设计、代码编写、Agent调试以及最终打包发布的完整开发周期，可帮助开发者高效地构建AI Agent应用。AI2Apps 集成了工程级的开发工具，以及覆盖前后端的全栈式可视化组件，开发者可以在几分钟内通过拖拽迅速构建自己的 AI Agent，并直接生成可发布与安装的App。
 
 https://github.com/pilgrim00/ai2apps/assets/66883561/4c5eaf0d-a426-4cca-88cc-63cd79fab4aa
 
@@ -93,20 +95,26 @@ AI2Apps 拥有强大的 Agent 调试功能：使用断点，单步执行，GPT�
 
 #### **4. 与用户更高效的交互**  
 在大多数情况下，聊天并不是与用户交互的最佳方式。AI2Apps 在开发时支持菜单、按钮、图表等多种 UI 控件，可以让 Agent
-像专业的 App 一样与用户交互。  
+像专业的 App 一样与用户交互。 
 
-#### **5. 多语言支持**  
+#### **5. 高效团队协作**  
+AI2Apps 借鉴了知名协作设计工具 Figma 的理念，支持开发者通过二维码链接向协作者实时共享其创作进度，并通过内置的版本控制功能实现协作开发。 
+
+#### **6. 自由安全部署**  
+AI2Apps 具备 Web-IDE 特性，部署后打开浏览器即可使用，实现在手机，电脑，平板，vr眼镜等全端互联。AI2Apps自带沙盒环境，将每个 Agent 项目低消耗地安全隔离在独立的浏览器 Tab 页面，无需在端侧配置 Docker 等容器环境。
+
+#### **6. 多语言支持**  
 使用传统开发模式进行多语言支持开发总是很繁琐和无趣。在 AI2Apps 中借助 AI 的辅助，只需几下点击就可以完成整个 Agent 的
 多语言开发，高效又有趣！  
 
-#### **6. 产品更容易维护**  
+#### **7. 产品更容易维护**  
 传统开发模式无法保证代码实现与原始设计的随时同步，设计文档在进行维护时经常不能作为有效的参考。
 AI2Apps的"设计即开发"模式可以保证代码与设计随时同步，不会出现设计与实现脱节的情况。
 与逐行阅读晦涩的代码相比，包含拓扑图的 AI Agent 代码在后期维护中的优势巨大，不仅可以清晰的掌握原有代码的
 设计思路，还可以更迅速的定位代码问题。
 
-#### **7. 通过插件扩展**  
-AI2Apps 可以通过 Add-On 方便的进行功能扩展，开发者可以根据需要制作自己的插件。  
+#### **8. 通过插件扩展**  
+就像 VScode 等开源通用IDE 一样，AI2Apps 具有完全开放的扩展性，开发者可以将外部代码封装成微服务形式，通过 Add-On 方便的进行功能扩展，根据需要制作自己的可视化插件。  
   
 
 ## 如何编写 Agent
@@ -180,8 +188,7 @@ Agent 启动后，你可以通过对话测试 Agent。
 可用于兑换能量。
 
 ### 发布 Agent
-编辑好的 Agent 可以打包发布为网页或移动应用（iOS/安卓）。当前的AI2Apps测试版本只支持为iOS的XCode模拟器工程打包，
-待系统更加完善稳定后，完整的打包功能会在稍后的版本中会提供。 
+编辑好的 Agent 可以打包发布为网页或移动应用（iOS/安卓）。 
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
   <a href="#readme-top" style="text-decoration: none; color: blue; font-weight: bold;">
@@ -189,12 +196,9 @@ Agent 启动后，你可以通过对话测试 Agent。
   </a>
 </p>
 
-## AI2Apps后续计划：
-- 支持更多LLM模型，例如Llama-2、MPT、Falcon和Pythia
-- 支持绘图 AI 模型
-- 支持语言识别/合成 AI 模型
-- 编程沙箱
-- 浏览器插件开发
+## AI2Apps近期计划：
+- 支持Wechat bot
+- 支持Agent Teamworks
 - 更多文档及例子
 
 ## 引用
