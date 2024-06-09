@@ -200,9 +200,10 @@ Agent 启动后，你可以通过对话测试 Agent。
   </a>
 </p>
 
-## Roadmap for AI2Apps：
+## Coming Soon：
 - 支持Wechat bot
-- 支持Agent Teamworks
+- 支持API (智能体)发布、发现机制
+- 支持支持API (智能体)自动、半自动开发机制
 - 更多文档及例子
 
 ## 引用
